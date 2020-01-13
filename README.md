@@ -62,9 +62,29 @@ Midterm | 32%
 Final | 40%
 Total | 100
 
+### Assignments
+
 There will be approximately 7 assignments. Assignments will focus on the theory and foundations of probabilistic graphical models. There might be one programming assignment in Python.
 
-## Course Materials
+#### Late Submission Policy
 
-* [Slides](slides)
+There is a 5-minute grace period. After the grace period is over, every late minute costs 1 point. The late submission policy is strictly enforced. Please do not submit late; submit early.
 
+#### Extensions
+
+I do not extend deadlines.
+
+#### Extra Credit
+
+I do not assign extra-credit work. Why? For at least two reasons:
+
+1. Extra credit is rarely truly optional; every student feels they have to do it, and hence it becomes a required credit in practice.
+2. The TAs are often overworked and underpaid.
+
+## Code of Academic Honesty
+
+I take the Code of Academic Honesty very seriosly and I report violations to the university. Please read the Code of Academic Honesty in the student handbook: https://web.iit.edu/student-affairs/handbook/fine-print/code-academic-honesty.
+
+## Center for Disability Resources
+
+Reasonable accommodations (https://web.iit.edu/cdr/services/reasonable-accommodations) are available to the students with documented disabilities. Students must first obtain a letter of accommodation from the Center for Disability Resources: https://web.iit.edu/cdr/
