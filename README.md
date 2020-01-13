@@ -1,8 +1,10 @@
 # CS 583: Probabilistic Graphical Models - Spring 2020
 
-## Course Description
+## Official Course Description
 
 This course will cover probabilistic graphical models -- powerful and interpretable models for reasoning under uncertainty. The generic families of models such as directed, undirected, and factor graphs as well as specific representations such as hidden Markov models and conditional random fields will be discussed. The discussions will include both the theoretical aspects of representation, learning, and inference, and their applications in many interesting fields such as computer vision, natural language processing, computational biology, and medical diagnosis.
+
+**Important note:** This course will focus primiarly on the foundations of probabilistic graphical models (PGM). Almost all of the lecture time will be used for discussing and using probability theory, statistics, optimization, and calculus for understanding, analysis, and derivation of PGM approaches and algorithms. Programming will be minimal.
 
 ## Prerequisites
 
@@ -59,6 +61,8 @@ Assignments | 28%
 Midterm | 32%
 Final | 40%
 Total | 100
+
+There will be approximately 7 assignments. Assignments will focus on the theory and foundations of probabilistic graphical models. There might be one programming assignment in Python.
 
 ## Course Materials
 
