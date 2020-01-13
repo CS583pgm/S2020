@@ -55,9 +55,9 @@ TBA
 
 Item | Points
 --- | ---
-Assignments | TBA
-Midterm | TBA
-Final | TBA
+Assignments | 28%
+Midterm | 32%
+Final | 40%
 Total | 100
 
 ## Course Materials
