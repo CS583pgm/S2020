@@ -1,0 +1,151 @@
+net
+{
+    node_size = (80 40);
+    HR_realname_Difficulty = "Difficulty";
+    HR_realname_Intelligence = "Intelligence";
+    HR_realname_Grade = "Grade";
+    HR_realname_SAT = "SAT";
+    HR_realname_Letter = "Letter";
+    HR_DBN_Num_Slices = "5";
+    HR_Utility_Link = "63";
+    HR_Probabilistic_Link = "63";
+    HR_Functional_Link = "63";
+    HR_Binding_Link = "63";
+    HR_Information_Arc = "63";
+    HR_Color_DiscreteFunction = "5";
+    HR_Desc = "";
+    HR_OOBN_CheckConsistency = "1";
+    HR_OOBN_FitExpand = "1";
+    HR_Zoom_ZoomFactor = "100";
+    HR_Groups_GroupColors = "";
+    HR_Groups_GroupNames = "";
+    HR_Groups_UserGroupsNo = "0";
+    HR_Color_Interface = "21";
+    HR_Color_Instance = "0";
+    HR_Color_Function = "4";
+    HR_Color_Utility = "36";
+    HR_Color_Decision = "17";
+    HR_Color_ContinuousChance = "48";
+    HR_Color_DiscreteChance = "16";
+    HR_Monitor_InitSD = "2";
+    HR_Monitor_Utility_Arrange = "0";
+    HR_Monitor_Mean_Variance = "1";
+    HR_Monitor_Chance_Utility = "1";
+    HR_Monitor_InitStates = "5";
+    HR_Monitor_OpenGraph = "0";
+    HR_Monitor_GraphPrecision = "100";
+    HR_Monitor_AutoUpdGraph = "0";
+    HR_Compile_MaxMinimalSeparators = "100000";
+    HR_Compile_ApproxEpsilon = "1.0E-5";
+    HR_Compile_Approximate = "0";
+    HR_Compile_SaveToMemory = "0";
+    HR_Compile_Compress = "0";
+    HR_Compile_TriangMethod = "0";
+    HR_Propagate_AutoNormal = "1";
+    HR_Propagate_AutoSum = "1";
+    HR_Propagate_Auto = "1";
+    HR_Font_Italic = "0";
+    HR_Font_Weight = "400";
+    HR_Font_Size = "-12";
+    HR_Font_Name = "javax.swing.plaf.FontUIResource[family=DejaVu Sans,name=DejaVu Sans,style=plain,size=13]";
+    HR_Grid_GridShow = "0";
+    HR_Grid_GridSnap = "0";
+    HR_Grid_Y = "40";
+    HR_Grid_X = "40";
+}
+
+node Letter
+{
+    label = "";
+    position = (216 125);
+    states = ("weak" "strong");
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node SAT
+{
+    label = "";
+    position = (400 234);
+    states = ("low" "high");
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Grade
+{
+    label = "";
+    position = (216 226);
+    states = ("a" "b" "c");
+    HR_LinkGroup = "[Letter:0]";
+    HR_LinkMode = "[Letter:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_2 = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Intelligence
+{
+    label = "";
+    position = (321 332);
+    states = ("low" "high");
+    HR_LinkGroup = "[Grade:0][SAT:0]";
+    HR_LinkMode = "[Grade:0][SAT:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+node Difficulty
+{
+    label = "";
+    position = (142 330);
+    states = ("easy" "difficult");
+    HR_LinkGroup = "[Grade:0]";
+    HR_LinkMode = "[Grade:0]";
+    HR_Group = "0";
+    HR_Desc = "";
+    HR_State_1 = "";
+    HR_State_0 = "";
+}
+
+potential (Letter | Grade)
+{
+    data
+     = (( 0.1 0.9 )	%  Grade=a
+	( 0.4 0.6 )	%  Grade=b
+	( 0.99 0.01 ));	%  Grade=c
+}
+
+potential (SAT | Intelligence)
+{
+    data
+     = (( 0.95 0.05 )	%  Intelligence=low
+	( 0.2 0.8 ));	%  Intelligence=high
+}
+
+potential (Grade | Intelligence Difficulty)
+{
+    data
+     = ((( 0.3 0.4 0.3 )	%  Intelligence=low  Difficulty=easy
+	 ( 0.05 0.25 0.7 ))	%  Intelligence=low  Difficulty=difficult
+	(( 0.9 0.08 0.02 )	%  Intelligence=high  Difficulty=easy
+	 ( 0.5 0.3 0.2 )));	%  Intelligence=high  Difficulty=difficult
+}
+
+potential (Intelligence)
+{
+    data = ( 0.7 0.3 );
+}
+
+potential (Difficulty)
+{
+    data = ( 0.6 0.4 );
+}
