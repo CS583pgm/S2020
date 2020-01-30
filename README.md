@@ -51,7 +51,11 @@ Web: http://www.cs.iit.edu/~mbilgic/
 
 ## Teaching Assistants
 
-TBA
+Eadhunath Venghatesan
+
+Office hours: Thursdays, 11am - 12pm <br>
+Office: Stuart Building, Room 019 <br>
+Email: evenghatesan@hawk.iit.edu <br>
 
 ## Grading
 
