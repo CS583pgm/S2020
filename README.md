@@ -45,9 +45,12 @@ https://mitpress.mit.edu/books/probabilistic-graphical-models
 Mustafa Bilgic
 
 Office hours: Tuesdays, 11am - 12pm <br>
-Office: Stuart Building, Room 217C <br>
+Office hour appointments: https://calendar.google.com/calendar/selfsched?sstoken=UUM2U0N3ZUY5UEVEfGRlZmF1bHR8NTZhOGFhNDJjYmNlMWY0ODRlNzhlZjRiNGYzYmYwZWY <br>
+Office hour Google meet link (please get an appointment first): https://meet.google.com/eer-cdss-tco  Note: you should login to your IIT account to join the meeting<br>
+Office: ~~Stuart Building, Room 217C~~ (temporarily unavailable due to Covid-19) <br>
 Email: mbilgic@iit.edu <br>
 Web: http://www.cs.iit.edu/~mbilgic/
+
 
 ## Teaching Assistants
 
