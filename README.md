@@ -16,6 +16,12 @@ Recommended: Probabilistic Graphical Models By Daphne Koller and Nir Friedman
 
 https://mitpress.mit.edu/books/probabilistic-graphical-models
 
+## OneNote
+
+Unedited, rough class notes. Not meant to replace your own note taking.
+
+https://1drv.ms/u/s!AjipUklg3ofWkQYm2sHRh9tmf1Wq
+
 ## Topics
 
 * Chapter 1 - Introduction
