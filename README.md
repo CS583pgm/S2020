@@ -51,10 +51,6 @@ https://1drv.ms/u/s!AjipUklg3ofWkQYm2sHRh9tmf1Wq
 Mustafa Bilgic
 
 Office hours: Tuesdays, 11am - 12pm <br>
-Office hour appointments: https://calendar.google.com/calendar/selfsched?sstoken=UUM2U0N3ZUY5UEVEfGRlZmF1bHR8NTZhOGFhNDJjYmNlMWY0ODRlNzhlZjRiNGYzYmYwZWY <br>
-Office hour Google meet link (please get an appointment first): https://meet.google.com/eer-cdss-tco  Note: you should login to your IIT account to join the meeting<br>
-Office: ~~Stuart Building, Room 217C~~ (temporarily unavailable due to Covid-19) <br>
-Email: mbilgic@iit.edu <br>
 Web: http://www.cs.iit.edu/~mbilgic/
 
 
@@ -63,8 +59,7 @@ Web: http://www.cs.iit.edu/~mbilgic/
 Eadhunath Venghatesan
 
 Office hours: Thursdays, 11am - 12pm <br>
-Office: Stuart Building, Room 019 <br>
-Email: evenghatesan@hawk.iit.edu <br>
+Office: Stuart Building, Room 019
 
 ## Grading
 
